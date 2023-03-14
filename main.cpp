@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <time.h>
 
-int mas(int mas1[], int x)
+void mas(int mas1[], int x)
 {
 	for (int i=0; i<x; i++)
 	{
@@ -32,4 +32,5 @@ main()
 	printf("\n");
 	
 	system("pause");
+	return 1;
 }
